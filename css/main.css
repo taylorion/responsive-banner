@@ -4,11 +4,49 @@
 @-webkit-viewport { width: device-width; scale: 1; }
 @viewport { width: device-width; scale: 1; }
 
-  html {
-  	box-sizing: border-box;
-    font-family: Georgia, serif;
+html {
+  box-sizing: border-box;
+  font-family: Georgia, serif;
+  background-color: #495562;
+  color: #fff;
+}
+
+.btn {
+  color: #fff;
+  border-color: #97a49b;
+  background-color: transparent;
+
+}
+
+.btn:hover {
+  border-color: #fff;
+  color: #97a39b;
+  background-color: #efefef;
+}
+
+@media only screen and (min-width: 60em) {
+
+  section {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    width: 100%;
+    background-image: linear-gradient(rgba (73, 85, 98, 0), rgba(73, 85, 98, .9));
   }
 
-  *, *::before, *::after {
-  	box-sizing: inherit;
+  header {
+    max-height: 500px;
+    overflow: hidden;
+    position: relative;
   }
+
+  .btn {
+    border-color: #fff;
+  }
+  p {
+    display: inline-block;
+    margin-right: 25%;
+    max-width: 25em;
+  }
+
+}
