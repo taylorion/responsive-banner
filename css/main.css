@@ -1,12 +1,16 @@
-@-moz-viewport { width: device-width; scale: 1; }
-@-ms-viewport { width: device-width; scale: 1; }
-@-o-viewport { width: device-width; scale: 1; }
-@-webkit-viewport { width: device-width; scale: 1; }
-@viewport { width: device-width; scale: 1; }
-
 html {
   font-family: Georgia, serif;
+}
+
+body {
   background-color: #495562;
+}
+
+p {
+  color: #fff;
+}
+
+h1 {
   color: #fff;
 }
 
@@ -14,12 +18,11 @@ html {
   color: #fff;
   border-color: #97a49b;
   background-color: transparent;
-
 }
 
 .btn:hover {
   border-color: #fff;
-  color: #97a39b;
+  color: #97a49b;
   background-color: #efefef;
 }
 
@@ -27,16 +30,16 @@ html {
 
   section {
     position: absolute;
+    left: 0;
     bottom: 0;
     width: 100%;
-    
+    background-image: linear-gradient(rgba(73, 85, 98, 0), rgba(73, 85, 98, .9));
   }
 
   header {
     max-height: 500px;
     overflow: hidden;
     position: relative;
-    background-image: linear-gradient(rgba (73, 85, 98, 0), rgba(73, 85, 98, .9));
   }
 
   .btn {
@@ -52,5 +55,4 @@ html {
     margin-right: 25%;
     max-width: 25em;
   }
-
 }
